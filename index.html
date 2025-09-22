@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="uz">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Samoo Shop — Onlayn Kiyim Doʻkoni (Demo)</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="logo">Samoo Shop</h1>
+            <div class="header-actions">
+                <button id="view-orders-btn" class="btn outline">Buyurtmalar (Admin)</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Trend kiyimlar — tez va oson zakaz</h2>
+            <p>Mahsulotni tanlang va "Zakaz berish" tugmasini bosing.</p>
+        </section>
+
+        <section id="products" class="products-grid">
+            <!-- Mahsulotlar JS orqali yuklanadi -->
+        </section>
+    </main>
+
+    <!-- Order Modal -->
+    <div id="order-modal" class="modal hidden" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close-btn">&times;</button>
+            <h3 id="modal-product-title">Zakaz</h3>
+
+            <form id="order-form">
+                <input type="hidden" id="product-id" />
+                <label>
+                    Ismingiz
+                    <input type="text" id="customer-name" required />
+                </label>
+                <label>
+                    Telefon (misol: +998901234567)
+                    <input type="tel" id="customer-phone" required pattern="^\+?\d{9,15}$" />
+                </label>
+                <label>
+                    Manzil
+                    <input type="text" id="customer-address" required />
+                </label>
+                <label>
+                    Miqdor
+                    <input type="number" id="quantity" value="1" min="1" required />
+                </label>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn primary">Zakazni tasdiqlash</button>
+                    <button type="button" class="btn outline" id="modal-cancel-btn">Bekor qilish</button>
+                </div>
+            </form>
+            <div id="order-feedback" class="feedback"></div>
+        </div>
+    </div>
+
+    <!-- Orders Admin Modal -->
+    <div id="orders-modal" class="modal hidden" role="dialog" aria-hidden="true">
+        <div class="modal-content large">
+            <button class="modal-close" id="orders-close-btn">&times;</button>
+            <h3>Saqlangan buyurtmalar</h3>
+            <div id="orders-list">
+                <!-- Buyurtmalar JS orqali yuklanadi -->
+            </div>
+            <div style="margin-top:12px;">
+                <button id="clear-orders-btn" class="btn danger">Barcha buyurtmalarni oʻchirish</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Samoo Shop — Demo</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
