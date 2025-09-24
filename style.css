@@ -1,6 +1,7 @@
 .logo-rasm{
     max-width: 60px;
     height: 60px;
+    border-radius: 50%;
 }
 .container{
     max-width: 1300px;
@@ -66,6 +67,8 @@ input{
     width: 350px;
     height: 30px;
     border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #hero{
     padding-top: 20px;
@@ -80,4 +83,52 @@ input{
         width: 140px;
             height: 40px;
             border-radius: 20px;
+}
+input:hover{
+    background-color: rgb(243, 234, 234);
+    transition: 0.5s;
+}
+button:hover{
+    background-color: rgb(243, 234, 234);
+    transition: 0.5s;
+}
+.logo-fot{
+    width: 25px;
+    height: 25px;
+}
+.logo-lam{
+    align-items: center;
+}
+.fott{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+}
+.info{
+    max-width: 300px;
+    height: 400px;
+    padding-top: 25px;
+    padding-left: 25px;
+    width: 100%;
+}
+.card{
+    max-width: 350px;
+    background-color: white;
+    box-shadow: 5px 5px 10px gray;
+    padding-bottom: 25px;
+    margin-top: 20px;
+}
+.cards{
+    padding-left: 20px;
+}
+.card-title{
+    padding-left: 25px;
+}
+.logo-fott{
+    padding-left: 140px;
+    width: 25px;
+    height: 25px;
 }
