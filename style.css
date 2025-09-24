@@ -70,3 +70,14 @@ input{
 #hero{
     padding-top: 20px;
 }
+.btn-primary{
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+}
+.btn-outlin{
+        width: 140px;
+            height: 40px;
+            border-radius: 20px;
+}
