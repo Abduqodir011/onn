@@ -120,6 +120,7 @@ a{
     box-shadow: 5px 5px 10px gray;
     padding-bottom: 25px;
     margin-top: 20px;
+    border-radius: 20px;
 }
 .cards{
     padding-left: 20px;
@@ -131,4 +132,45 @@ a{
     padding-left: 140px;
     width: 25px;
     height: 25px;
+}
+.card:hover{
+    background-color: rgb(194, 187, 187);
+    transition: 0.5s;
+}
+.sec{
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+    max-width: 220px;
+    height: 220px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.oo{
+    border-radius: 20px;
+}
+.tepa {
+    max-width: 300px;
+    height: 400px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 25px;
+    padding-bottom: 85px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.som{
+    padding-left: 38px;
+    padding-top: 30px;
+    border-radius: 20px;
+}
+.ava{
+    padding-left: 38px;
+}
+.tepa-btn{
+    width: 130px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 80px;
 }
