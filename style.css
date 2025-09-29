@@ -3,8 +3,14 @@
     height: 60px;
     border-radius: 50%;
 }
+.site-header{
+        position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #FAFAFA;
+}
 .container{
-    max-width: 1300px;
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -71,7 +77,7 @@ input{
     margin-bottom: 10px;
 }
 #hero{
-    padding-top: 20px;
+    padding-top: 80px;
 }
 .btn-primary{
     margin-top: 20px;
@@ -83,6 +89,7 @@ input{
         width: 140px;
             height: 40px;
             border-radius: 20px;
+            margin-left: 30px;
 }
 input:hover{
     background-color: rgb(243, 234, 234);
@@ -142,23 +149,21 @@ a{
     box-shadow: 5px 5px 10px gray;
     max-width: 220px;
     height: 220px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
+
 }
-.oo{
-    border-radius: 20px;
-}
+
 .tepa {
-    max-width: 300px;
+    width: 300px;
     height: 400px;
     box-shadow: 5px 5px 10px gray;
     border-radius: 25px;
     padding-bottom: 85px;
     margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    ;
 }
 .som{
     padding-left: 38px;
@@ -173,4 +178,229 @@ a{
     height: 30px;
     border-radius: 20px;
     margin-left: 80px;
+}
+.form-actions {
+    gap: 30px;
+}
+.ultimate{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media (max-width:1220px) {
+    .ultimate{
+        flex-wrap: wrap;
+    }
+}
+ul{
+    list-style: none;
+}
+.menusa{
+    display: flex;
+    gap: 30px;
+}
+@media (max-width:560px) {
+    .menusa{
+        display: none;
+    }
+}
+.nnn{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menusa a{
+    color: black;
+}
+.tepaa{
+    width: 250px;
+    background-color: white;
+    border-radius: 15px;
+}
+.tepa-rasm{
+    width: 100%;
+    border-radius: 15px;
+}
+.tepa-title{
+    color: blue;
+    padding-left: 10px;
+}
+.tepa-mark{
+    margin-left: 10px;
+}
+.tepa-desc{
+    padding-left: 10px;
+}
+.tepa-btn{
+    width: 230px;
+    color: white;
+    background-color: rgb(59, 59, 222);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.nnn{
+    display: block;
+}
+.tepaa{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.oo{
+    width: 100%;
+    width: 200px;
+    border-radius: 20px;
+}
+.bbb{
+    background-color: white;
+        border-radius: 15px;
+        width: 250px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.bbb img{
+    width: 100%;
+    border-radius: 15px;
+}
+.bbb-title{
+    color: blue;
+        padding-left: 10px;
+}
+.bbb-desc{
+    margin-left: 10px
+}
+.bbb-mark{
+    padding-left: 10px;
+}
+.bbb-btn{
+        width: 230px;
+            color: white;
+            background-color: rgb(59, 59, 222);
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            font-size: 18px;
+            border-radius: 20px;
+}
+.oyo{
+    background-color: white;
+    border-radius: 15px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oyo img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.oyo-tile{
+    color: blue;
+    padding-left: 10px;
+}
+
+.oyo-desc {
+    margin-left: 10px
+}
+
+.oyo-mark {
+    padding-left: 10px;
+}
+
+.oyo-btn {
+    width: 230px;
+    color: white;
+    background-color: rgb(59, 59, 222);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.aci{
+    background-color: white;
+    border-radius: 15px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aci img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.aci-tile {
+    color: blue;
+    padding-left: 10px;
+}
+
+.aci-desc {
+    margin-left: 10px
+}
+
+.aci-mark {
+    padding-left: 10px;
+}
+
+.aci-btn {
+    width: 230px;
+    color: white;
+    background-color: rgb(59, 59, 222);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.sot {
+    background-color: white;
+    border-radius: 15px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sot img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.s-title {
+    color: blue;
+    padding-left: 10px;
+}
+
+.s-desc {
+    margin-left: 10px
+}
+
+.s-mark {
+    padding-left: 10px;
+}
+
+.s-btn {
+    width: 230px;
+    color: white;
+    background-color: rgb(59, 59, 222);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    border-radius: 20px;
 }

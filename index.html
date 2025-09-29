@@ -12,6 +12,19 @@
     <header class="site-header">
         <div class="container novbar">
             <img class="logo-rasm" src="./images/photo_2025-09-23_09-01-20.jpg" alt="">
+             <div>
+                <ul class="menusa">
+                    <li>
+                        <a href="./index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="./kiyimlar.html">kiyimlar</a>
+                    </li>
+                    <li>
+                        <a href="">chiqish</a>
+                    </li>
+                </ul>
+             </div>
             <div class="header-actions">
                 <button id="view-orders-btn" class="btn-outline">Buyurtmalar (Admin)</button>
             </div>
@@ -35,27 +48,27 @@
             <h3 id="modal-product-title">Zakaz</h3>
 
             <form id="order-form">
-                <input type="hidden" id="product-id" />
+                <input type="hidden" id="product-id" /> <br>
                 <label>
-                    Ismingiz
-                    <input type="text" id="customer-name" required />
+                    Ismingiz <br>
+                    <input type="text" id="customer-name" required /> <br>
                 </label>
                 <label>
-                    Telefon (misol: +998901234567)
-                    <input type="tel" id="customer-phone" required pattern="^\+?\d{9,15}$" />
+                    Telefon (misol: +998901234567) <br>
+                    <input type="tel" id="customer-phone" required pattern="^\+?\d{9,15}$" /> <br>
                 </label>
                 <label>
-                    Manzil
-                    <input type="text" id="customer-address" required />
+                    Manzil <br>
+                    <input type="text" id="customer-address" required /> <br>
                 </label>
                 <label>
-                    Miqdor
-                    <input type="number" id="quantity" value="1" min="1" required />
+                    Miqdor <br>
+                    <input type="number" id="quantity" value="1" min="1" required /> <br>
                 </label>
 
                 <div class="form-actions">
-                    <button type="submit" class="btn-primary">Zakazni tasdiqlash</button>
-                    <button type="button" class="btn-outlin" id="modal-cancel-btn">Bekor qilish</button>
+                    <button class="btn-primary">Zakazni tasdiqlash</button> 
+                    <button class="btn-outlin" id="modal-cancel-btn">Bekor qilish</button>
                 </div>
             </form>
         </div>
